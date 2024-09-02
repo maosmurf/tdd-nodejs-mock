@@ -3,8 +3,8 @@ const { describe, it } = require('node:test');
 const { doStuff } = require('./yolo');
 
 describe('yolo', () => {
-    it('works', () => {
-        const res = doStuff();
-        assert.equal(res, 'Hello');
+    it('works', async () => {
+        const res = await doStuff();
+        assert.equal(res, 'it\'s complicated');
     });
 });
