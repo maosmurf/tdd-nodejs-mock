@@ -1,0 +1,8 @@
+{
+  "name": "tdd-nodejs-mock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:maosmurf/tdd-nodejs-mock.git",
+  "author": "Adam Zielinski <github@maosmurf.com>",
+  "license": "MIT"
+}
